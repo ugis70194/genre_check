@@ -1,0 +1,11 @@
+name: 'genre_check'
+description: 'sub moduble of auto-generate-tsx'
+runs:
+  using: 'node16'
+  main: 'index.js'
+inputs:
+  target_directory:
+    description: 'under GITHUB_WORKSPACE'
+    defualt: 'contents'
+  target_jsonc:
+    defualt: 'detail.jsonc'
